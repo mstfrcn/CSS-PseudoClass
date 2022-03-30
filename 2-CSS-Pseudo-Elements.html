@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+    .para1{
+        font-size: 1.5em;
+        letter-spacing: 2px;
+        line-height: 1.5rem;
+    }
+    .para1::first-line{
+        color: red;
+    }
+    .para1::first-letter{
+        color: blue;
+        font-size: xx-large;
+    }
+    .para1::after{
+        content: "Paragraf sonrasi yazi";
+        content: url(youtubeAmblem.png);
+    }
+    .para1::before{
+        content: "paragraftan once yazisi"
+    }
+
+</style>
+
+</head>
+<body>
+    <ul>
+        <li>first-line ilk satiri alir</li>
+        <li>first-letter ilk harfi alir</li>
+        <li>after paragraftan sonra yazi resim vs islemler</li>
+        <li>before paragraftan once yazi resim vs islemler</li>
+    </ul>
+
+<p class="para1">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, ut aliquid blanditiis ad laborum accusamus dignissimos dolorum earum minus, eaque odit repudiandae fugiat dolorem atque. Vero, earum. Quidem id aliquam cupiditate obcaecati fugit rerum delectus. Neque rem dolorem, sapiente omnis qui blanditiis placeat at ipsum vel, quidem et magni dolore, porro cupiditate odio consequuntur itaque earum odit eum! Totam, officiis? Suscipit alias eius, magnam temporibus commodi incidunt aperiam consequuntur vero saepe cum repudiandae voluptas optio perferendis, veniam quibusdam. Totam minus nesciunt recusandae error quos ipsum nisi vitae quas mollitia laboriosam! Illo, non. Eaque quibusdam laudantium eos nemo earum. Iure, eum.
+</p>
+
+</body>
+</html>
